@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-agent-roles",
+  "description": "Multi-agent role packs for Cursor: System Analyst, Frontend, Backend, QA (skills + MCP-ready). Full Cursor Plugin also under .cursor-plugin/.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Vladislav Kasintsev"
+  }
+}

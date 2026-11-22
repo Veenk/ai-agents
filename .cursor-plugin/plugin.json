@@ -1,10 +1,12 @@
 {
   "name": "ai-agent-roles",
-  "version": "0.1.0",
-  "description": "Multi-agent role system for Cursor Projects: System Analyst, Frontend, Backend, QA — with AnalystRequest gate, GWT acceptance criteria, and requirements-review playbook. Portable kit; each Project still needs its own tracker, Context, and coordinator.",
+  "version": "0.1.1",
+  "description": "Multi-agent role packs: System Analyst, Frontend, Backend, QA.",
   "author": {
     "name": "Vladislav Kasintsev"
   },
+  "license": "MIT",
+  "repository": "https://github.com/Veenk/ai-agents",
   "keywords": [
     "roles",
     "analyst",
