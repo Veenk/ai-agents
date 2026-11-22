@@ -1,0 +1,13 @@
+---
+description: Cross-scope and contract changes go only through the System Analyst via AnalystRequest
+alwaysApply: true
+---
+
+# AnalystRequest gate (hard rule)
+
+- Cross-scope and contract-impact changes go **only through the System Analyst**.
+- Developers and QA escalate with a structured **AnalystRequest**; they do **not** renegotiate requirements peer-to-peer (FE↔BE, QA↔FE/BE chat agreements are not source of truth).
+- Only the System Analyst edits `docs/features/<feature-id>/requirements.md`. Others propose; analyst writes and bumps `Version:`.
+- Cite the requirements **version** on every review and build. Work against a stale version is invalid.
+- Blocking findings pause the affected scope (and any dependents the analyst marks) until status is `incorporated`, or `answered` with explicit “no requirements change.”
+- File requests under `docs/features/<feature-id>/findings/<short-slug>.md` using the AnalystRequest skill/template.

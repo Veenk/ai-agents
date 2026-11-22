@@ -1,0 +1,13 @@
+---
+description: Requirements must be clear, glossary-complete, diagrammed; no review-round cap
+alwaysApply: true
+---
+
+# Requirements clarity & completeness
+
+- Requirements must be understandable to developers **without guessing**.
+- Define **all** abbreviations and domain terms (glossary and/or inline first use + glossary entry).
+- Document processes with diagrams (**Mermaid** preferred in Context markdown).
+- **No fixed review-round limit**: clarify until scopes can implement without guessing; escalate to human only for business blockers or cycling with no new information.
+- Prefer **clarify-and-supplement** over silent rewrite: most “requirement changes” are incomplete elicitation; true external/regulatory change is rarer and must be named.
+- Analyst completeness (preliminary framing, process/story map, named entities, conceptual domain model, states, CRUD+LSHAX matrix, context analysis, UC↔screen↔data↔report↔goal crystal, screens/nav, lifecycle, ops) before calling scopes ready — see skill `analyst-completeness`.

@@ -1,0 +1,11 @@
+---
+description: Acceptance criteria default to Given/When/Then for behavioral flows
+alwaysApply: true
+---
+
+# Acceptance criteria (house default)
+
+- Behavioral flows: **Given / When / Then**.
+- Short checklists only for non-flow items (static fields, copy presence, NFR thresholds).
+- Missing, checklist-only, ambiguous, or contradictory flow AC → file an AnalystRequest (do not invent acceptance meaning).
+- QA derives cases and verifies against GWT for flows; FE/BE review and test against the same AC.

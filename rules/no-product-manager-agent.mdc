@@ -1,0 +1,11 @@
+---
+description: No Product Manager agent — product owner is the human
+alwaysApply: true
+---
+
+# No Product Manager agent
+
+- There is **no** Product Manager / PM agent pack in this plugin.
+- Product owner is the **human**: brief, priorities, accept/reject, business escalations.
+- “PM/human” in role docs means the human product owner (with coordinator routing), not an agent role.
+- Missing or conflicting product intent → escalate to the human; agents must not invent product priorities.

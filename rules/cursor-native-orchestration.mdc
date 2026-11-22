@@ -1,0 +1,11 @@
+---
+description: Prefer Cursor-native Projects/tracker/agents/Context over a custom orchestrator
+alwaysApply: true
+---
+
+# Cursor-native orchestration
+
+- Prefer Cursor-native capabilities (Projects, tracked tasks, agents, Context, rules, skills) over a custom orchestrator platform unless a clear Cursor gap appears.
+- This plugin is a **portable role kit** (rules / agents / skills). Each Project still needs its own tracker, Context, and coordinator chat — those are **not** packaged here.
+- Tracker tasks name the **outcome**, not the process step.
+- Role packs are durable instructions; each task run is an isolated worker instance with its own Context (and for code, its own branch/PR).

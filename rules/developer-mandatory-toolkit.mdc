@@ -1,0 +1,26 @@
+---
+description: FE/BE developers must follow Karpathy guidelines + Superpowers; Project rules win on requirements
+alwaysApply: true
+---
+
+# Developer mandatory toolkit (FE / BE only)
+
+Applies to **Frontend** and **Backend** agents when writing, reviewing, or refactoring code (Mode B build). Does **not** replace domain review checklists in Mode A. Does **not** apply to System Analyst or QA product-truth work (QA may apply Karpathy simplicity only when writing in-repo test automation).
+
+## Mandatory
+
+1. **Karpathy behavioral guidelines** — [CURSOR.md](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CURSOR.md): think before coding; simplicity first; surgical changes; goal-driven verification. Install the upstream rule/skill per that doc.
+2. **Superpowers** — [obra/superpowers](https://github.com/obra/superpowers/blob/main/README.md); Cursor: `/add-plugin superpowers`. Use writing-plans / executing-plans / TDD / systematic-debugging / verification-before-completion / requesting-code-review / finishing-a-development-branch / git-worktrees as appropriate — **inside** a ready scope against a cited requirements version.
+
+## Conflict rule (this plugin / Project wins)
+
+| Impulse | Required behavior |
+|---------|-------------------|
+| Invent product design before build | Analyst owns versioned requirements; do not replace brief→requirements |
+| Agree behavior with a peer agent | AnalystRequest only for cross-scope / contracts |
+| Expand scope “while we’re here” | YAGNI + simplicity; out-of-scope → request or defer |
+| Start coding before scope ready | Allowed only for **ready** FE/BE scope + cited `requirements.md` version |
+
+Uncertainty about **product/contract meaning** → AnalystRequest. Uncertainty about **implementation inside approved scope** → ask or state assumptions per Karpathy.
+
+Full skill: `developer-mandatory`.
